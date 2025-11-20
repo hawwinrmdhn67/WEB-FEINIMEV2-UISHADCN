@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'FeinimeList - Check update & search for all anime',
+  title: 'Feinime',
   description: 'thousands of anime with Feinime. Experience modern UI with advanced search, filters, and personalized recommendations.',
   generator: 'v0.app',
   icons: {
