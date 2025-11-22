@@ -1,13 +1,3 @@
-Tentu, saya mengerti\! Anda ingin memastikan seluruh konten *README* ada dalam satu blok kode Markdown, tanpa pemisah atau bagian di luar blok kode, agar mudah disalin secara keseluruhan.
-
-
-
-Berikut adalah seluruh konten *README* Feinime V2 dalam satu blok kode penuh:
-
-
-
-````markdown
-
 # ✨ Feinime V2 - Web Anime Modern (Next.js & ShadCN UI)
 
 
