@@ -1,71 +1,26 @@
-[00:00:01.531] Server  LOG      ✓ Ready in 1048ms
-[00:00:04.604] Server  LOG      ○ Compiling / ...
-[00:00:06.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.962] Server  WARN     ⚠ Cross origin request detected from 192.168.1.106 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
-Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:30.969] Browser ERROR   ./components/search-page.tsx:103:32
-Parsing ecmascript source code failed
-  101 |         {loading ? (
-  102 |           {/* 🎯 Gunakan SkeletonLoader type="search" secara langsung */}
-> 103 |           <SkeletonLoader type="search" />
-      |                                ^^^^
-  104 |
-  105 |         ) : animes.length > 0 ? (
-  106 | // ... (Bagian tampilan hasil tetap sama)
-
-Expected '</', got 'type'
-
-Import trace:
-  Client Component Browser:
-    ./components/search-page.tsx [Client Component Browser]
-    ./app/search/page.tsx [Client Component Browser]
-    ./app/search/page.tsx [Server Component]
-[00:00:31.940] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:46.339] Server  LOG      ✓ Compiled in 334ms
-[00:00:49.529] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:51.326] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
-[00:01:00.080] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:01.818] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?filter=bypopularity&page=2&limit=25, retrying in 1000ms...
-[00:01:01.818] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1763/150638l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1208/94745.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1935/127974.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1517/100633.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/3/72078.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:23.861] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1245/116760.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:25.657] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.101] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.101] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1763/150638l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.101] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1208/94745.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.102] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1935/127974.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.102] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1517/100633.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.102] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/3/72078.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.102] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1245/116760.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:27.569] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
-[00:01:47.766] Server  LOG      ✓ Compiled in 212ms
-[00:01:48.374] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1208/94745.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:48.374] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1935/127974.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:48.374] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/3/72078.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:48.374] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1517/100633.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:48.374] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1245/116760.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:00.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:01.971] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1208/94745.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.971] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1935/127974.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.971] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1245/116760.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.971] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/3/72078.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:01.971] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1517/100633.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:02.473] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?filter=bypopularity&page=1&limit=25, retrying in 1000ms...
-[00:02:02.473] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
-[00:02:06.572] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/0d15e0c3-fea9-4f49-b3bf-78aad27f788d_42x62_i?s=3254009fed9190c562e8e76bf91f8d64" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/f6887b6c-ea4a-4705-a77b-fe9d74f15c11_225w?s=96c960b15aee41d9bf6b30f4db3873b2" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/e19cba5a-1c63-412a-8148-9d364b89963a_225w?s=19205aa0c4457b8901cd02b864e08a6d" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/0aedbb38-1dfb-4e43-a0b1-5bcae6f09889_225w?s=99f57343ef50cdfba6e238520ca2b59b" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/82e1eb83-0525-4188-9f76-bb683bc50db1_42x62_i?s=66290fc0876401cac1dc3283535970c8" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:10.644] Browser WARN    Image with src "https://cdn.myanimelist.net/s/common/userimages/d13b5454-1f83-42bd-9213-deac5773e297_42x62_i?s=53c5de7261244fa1086e6aa35966087c" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:16.962] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?page=2&limit=25, retrying in 1000ms...
-[00:02:17.505] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?filter=bypopularity&page=1&limit=25, retrying in 1000ms...
-[00:02:17.505] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
-[00:02:19.038] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?filter=bypopularity&page=1&limit=25, retrying in 2000ms...
-[00:02:19.038] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 2000ms...
+[00:00:01.953] Server  LOG      ✓ Ready in 1122ms
+[00:00:26.697] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1763/150638l.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1208/94745.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1935/127974.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1517/100633.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/3/72078.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.212] Browser WARN    Image with src "https://cdn.myanimelist.net/images/anime/1245/116760.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:28.702] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/seasons/now?page=1&limit=25, retrying in 1000ms...
+[00:00:28.702] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/top/anime?filter=bypopularity&page=2&limit=25, retrying in 1000ms...
+[00:00:34.560] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=4&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.560] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=5&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.779] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=3&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.779] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=1&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.779] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=4&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.779] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=2&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:34.779] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=5&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 1000ms...
+[00:00:36.102] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=5&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 2000ms...
+[00:00:36.329] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=1&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 2000ms...
+[00:00:36.330] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=3&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 2000ms...
+[00:00:36.330] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=5&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 2000ms...
+[00:00:36.479] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=4&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 2000ms...
+[00:00:38.890] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=1&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 4000ms...
+[00:00:38.890] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=5&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 4000ms...
+[00:00:39.021] Browser WARN    [API] Rate limit hit for https://api.jikan.moe/v4/anime?genres=1&page=4&limit=25&order_by=start_date&sort=desc&sfw=true, retrying in 4000ms...
