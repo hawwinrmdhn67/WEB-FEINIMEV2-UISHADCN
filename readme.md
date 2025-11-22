@@ -1,24 +1,13 @@
 # ✨ Feinime V2 - Web Anime Modern (Next.js & ShadCN UI)
 
-
-
-[![Next.js](https://img.shields.io/badge/Next.js-Black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-
-[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-
-[![ShadCN UI](https://img.shields.io/badge/ShadCN%20UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)](https://ui.shadcn.com/)
-
-
+[![Next.js](https://skillicons.dev/icons?i=nextjs)](https://skillicons.dev)
+[![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
+[![TypeScript](https://skillicons.dev/icons?i=typescript)](https://skillicons.dev)
+[![TailwindCSS](https://skillicons.dev/icons?i=tailwindcss)](https://skillicons.dev)
 
 Feinime V2 adalah platform website anime modern yang dirancang untuk menampilkan data anime secara *real-time* dengan pengalaman pengguna yang mulus. Dibangun di atas *stack* teknologi modern **Next.js**, **React**, dan **TailwindCSS (ShadCN UI)** untuk performa dan *scalability* terbaik.
 
-
-
-![Feinime Logo](public/feinime.jpg)
+<img src="public/feinime.jpg" alt="Feinime Logo" style="width:200px;"/>
 
 ---
 
@@ -46,12 +35,6 @@ Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user e
 
 ## 🛠️ Tech Stack
 
-
-
-| Kategori | Teknologi | Deskripsi |
-
-| :--- | :--- | :--- |
-
 | **Framework** | **Next.js 13+** | Framework React Production-ready (menggunakan App Router). |
 
 | **UI Library** | **React 18** | Komponen UI dan state management. |
@@ -72,11 +55,21 @@ Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user e
 
 ## 📸 Screenshots
 
-| Home Page | Live Search (Desktop) | Fullscreen Search (Mobile) |
+### Home Page
 
-| :---: | :---: | :---: |
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/219fbf12-2f59-48fd-bb30-93a2d996172b" />
 
-| ![Home](public/screenshots/home.png) | ![Desktop Search](public/screenshots/desktop-search.png) | ![Mobile Search](public/screenshots/mobile-search.png) |
+---
+
+### Season Now
+
+<img width="1440" height="814" alt="image" src="https://github.com/user-attachments/assets/464d040e-b37d-42e2-870e-c037367ac9d3" />
+
+---
+
+### All Time Popular
+
+<img width="1440" height="813" alt="image" src="https://github.com/user-attachments/assets/2bb4e70d-262e-4bdd-9d55-adcb60171099" />
 
 ---
 
@@ -180,7 +173,7 @@ Kontribusi Anda sangat dihargai\! Jika Anda ingin menambahkan fitur, memperbaiki
    
 -----
 
-## 📝 Catatan Developer
+## 📝 Catatan Untuk Yang mau ambil repository untuk bahan project 
 
 
   * **API Fethching**: Seluruh data anime diambil menggunakan **Axios** dari API anime (e.g., Jikan API). Pastikan *endpoint* di file `lib/api.ts` sudah benar.
@@ -188,10 +181,6 @@ Kontribusi Anda sangat dihargai\! Jika Anda ingin menambahkan fitur, memperbaiki
   * **Debouncing**: Penggunaan `lodash.debounce` adalah kunci untuk optimasi performa *live search*.
 
 
-*Terima kasih telah melihat proyek Feinime V2\!*
+*Terima kasih telah melihat proyek Feinime V2 Salam dari dev hawwinrmdhn67\!*
 
-
-
-```
-
-```
+----
