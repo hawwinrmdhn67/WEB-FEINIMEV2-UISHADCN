@@ -20,19 +20,11 @@ Feinime V2 adalah platform website anime modern yang dirancang untuk menampilkan
 
 ![Feinime Logo](public/feinime.jpg)
 
-
-
 ---
-
-
 
 ## 🚀 Fitur Unggulan
 
-
-
 Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user experience*:
-
-
 
 * **Live Search Interaktif:**
 
@@ -50,11 +42,7 @@ Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user e
 
 * **Pengalaman Loading Halus**: Menggunakan **Skeleton Loader** saat menunggu respons API.
 
-
-
 ---
-
-
 
 ## 🛠️ Tech Stack
 
@@ -80,15 +68,9 @@ Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user e
 
 | **Ikon** | **Lucide React** | Koleksi ikon yang ringan dan modern. |
 
-
-
 ---
 
-
-
 ## 📸 Screenshots
-
-
 
 | Home Page | Live Search (Desktop) | Fullscreen Search (Mobile) |
 
@@ -96,23 +78,13 @@ Feinime V2 dilengkapi dengan fitur-fitur yang memaksimalkan navigasi dan *user e
 
 | ![Home](public/screenshots/home.png) | ![Desktop Search](public/screenshots/desktop-search.png) | ![Mobile Search](public/screenshots/mobile-search.png) |
 
-
-
 ---
-
-
 
 ## ⚙️ Instalasi & Setup Lokal
 
-
-
 Ikuti langkah-langkah di bawah ini untuk menjalankan proyek Feinime V2 di lingkungan lokal Anda.
 
-
-
 ### 1. Clone Repository
-
-
 
 ```bash
 
@@ -122,15 +94,9 @@ cd WEB-FEINIMEV2-UISHADCN
 
 ````
 
-
-
 ### 2\. Install Dependencies
 
-
-
 Install semua paket yang dibutuhkan:
-
-
 
 ```bash
 
@@ -138,15 +104,9 @@ npm install
 
 ```
 
-
-
 > **Catatan:** Jika Anda mengalami error versi React, coba install ulang dengan spesifik: `npm install react@18 react-dom@18`.
 
-
-
 ### 3\. Install Utilities Tambahan
-
-
 
 ```bash
 
@@ -156,11 +116,7 @@ npm install --save-dev @types/lodash.debounce @types/react
 
 ```
 
-
-
 ### 4\. Jalankan Development Server
-
-
 
 ```bash
 
@@ -168,63 +124,35 @@ npm run dev
 
 ```
 
-
-
 Aplikasi akan berjalan di: **[http://localhost:3000](https://www.google.com/search?q=http://localhost:3000)**.
-
-
 
 -----
 
-
-
 ## 📂 Struktur Project
-
-
 
 ```
 
 WEB-FEINIMEV2-UISHADCN/
 
 ├─ app/                  # Direktori utama untuk routing dan halaman
-
 │  ├─ [anime-id]/        # Rute dinamis untuk halaman detail anime
-
 │  ├─ trending/          # Halaman Trending Anime
-
 │  ├─ seasonal/          # Halaman Seasonal Anime
-
 │  ├─ popular/           # Halaman Popular Anime
-
 │  └─ layout.tsx         # Layout global dan root dari aplikasi
-
 ├─ components/           # Komponen UI yang dapat digunakan kembali (Navbar, AnimeCard, ThemeToggle, dll.)
-
 ├─ lib/                  # Fungsi utilitas dan layer API (searchAnime, api.ts)
-
 ├─ public/               # Assets statis (gambar, font, logo)
-
 ├─ styles/               # Global CSS dan konfigurasi Tailwind
-
 ├─ package.json          # Metadata proyek dan daftar dependensi
-
 └─ tsconfig.json         # Konfigurasi TypeScript
 
 ```
-
-
-
 -----
-
-
 
 ## 👨‍💻 Cara Penggunaan
 
-
-
 Proyek ini dirancang untuk navigasi yang intuitif, didukung oleh fitur live search yang efisien:
-
-
 
 1.  **Navigasi Utama:** Gunakan **Navbar** untuk berpindah antar halaman utama (**Home, Trending, Seasonal, Popular, Genres**).
 
@@ -234,19 +162,11 @@ Proyek ini dirancang untuk navigasi yang intuitif, didukung oleh fitur live sear
 
 4.  **Detail Anime:** Klik pada *card* anime mana pun (di Home, Trending, atau hasil pencarian) untuk melihat halaman detailnya.
 
-
-
 -----
-
-
 
 ## 🤝 Kontribusi
 
-
-
 Kontribusi Anda sangat dihargai\! Jika Anda ingin menambahkan fitur, memperbaiki *bug*, atau meningkatkan performa:
-
-
 
 1.  *Fork* repository ini.
 
@@ -257,21 +177,15 @@ Kontribusi Anda sangat dihargai\! Jika Anda ingin menambahkan fitur, memperbaiki
 4.  *Push* ke *branch*: `git push origin fitur-xyz`
 
 5.  Buka **Pull Request** ke *main branch* di repository ini.
-
-
-
+   
 -----
 
-
-
 ## 📝 Catatan Developer
-
 
 
   * **API Fethching**: Seluruh data anime diambil menggunakan **Axios** dari API anime (e.g., Jikan API). Pastikan *endpoint* di file `lib/api.ts` sudah benar.
 
   * **Debouncing**: Penggunaan `lodash.debounce` adalah kunci untuk optimasi performa *live search*.
-
 
 
 *Terima kasih telah melihat proyek Feinime V2\!*
