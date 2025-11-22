@@ -1,4 +1,4 @@
-# ✨ Feinime V2 - Web Anime Modern (Next.js & ShadCN UI)
+# ✨ Feinime V2 - Web Anime Modern 
 
 [![Next.js](https://skillicons.dev/icons?i=nextjs)](https://skillicons.dev)
 [![React](https://skillicons.dev/icons?i=react)](https://skillicons.dev)
@@ -8,6 +8,10 @@
 Feinime V2 adalah platform website anime modern yang dirancang untuk menampilkan data anime secara *real-time* dengan pengalaman pengguna yang mulus. Dibangun di atas *stack* teknologi modern **Next.js**, **React**, dan **TailwindCSS (ShadCN UI)** untuk performa dan *scalability* terbaik.
 
 <img src="public/feinime.jpg" alt="Feinime Logo" style="width:200px;"/>
+
+Preview website bisa cek dibawah :
+
+https://web-feinimev-2-uishadcn.vercel.app/
 
 ---
 
