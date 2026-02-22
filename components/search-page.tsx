@@ -7,6 +7,7 @@ import { SkeletonLoader } from './skeleton-loader'
 import { searchAnime } from '@/lib/api'
 import { Button } from './ui/button'
 import { ArrowDownCircle } from 'lucide-react'
+import { Footer } from './feinime-footer'
 
 export default function SearchPage() {
   const searchParams = useSearchParams()
@@ -146,6 +147,8 @@ export default function SearchPage() {
           </div>
         )}
       </div>
+      
+      <Footer />
     </main>
   )
 }
